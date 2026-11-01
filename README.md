@@ -7,9 +7,7 @@ Linux 出身，做 Kubernetes 集群运维、监控告警和 CI/CD 交付。<br/
 
 <br/>
 
-<img src="https://img.shields.io/badge/-深圳-2f81f7?style=flat-square" alt="深圳">
-<a href="mailto:diaorongsong@163.com"><img src="https://img.shields.io/badge/-diaorongsong@163.com-238636?style=flat-square" alt="Email"></a>
-<img src="https://komarev.com/ghpvc/?username=Diaorongsong2&label=views&color=6e7681&style=flat-square" alt="views">
+<p><img src="https://img.shields.io/badge/-深圳-2f81f7?style=flat-square" alt="深圳"> <a href="mailto:diaorongsong@163.com"><img src="https://img.shields.io/badge/-diaorongsong@163.com-238636?style=flat-square" alt="Email"></a> <img src="https://komarev.com/ghpvc/?username=Diaorongsong2&label=views&color=6e7681&style=flat-square" alt="views"></p>
 
 </div>
 
@@ -52,48 +50,15 @@ flowchart LR
 
 **系统与容器**
 
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white">
-<img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white">
-<img src="https://img.shields.io/badge/Keepalived-525252?style=flat-square&logoColor=white">
+<p><img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"> <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white"></p>
 
-**交付流水线**
+**交付与监控**
 
-<img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white">
-<img src="https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white">
-<img src="https://img.shields.io/badge/Harbor-60B932?style=flat-square&logo=harbor&logoColor=white">
-<img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white">
-<img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+<p><img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"> <img src="https://img.shields.io/badge/Harbor-60B932?style=flat-square&logo=harbor&logoColor=white"> <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white"> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"> <img src="https://img.shields.io/badge/DCGM_Exporter-76B900?style=flat-square&logo=nvidia&logoColor=white"></p>
 
-**监控告警**
+**数据与云**
 
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white">
-<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white">
-<img src="https://img.shields.io/badge/Alertmanager-E6522C?style=flat-square&logo=prometheus&logoColor=white">
-<img src="https://img.shields.io/badge/Zabbix-D40000?style=flat-square&logo=zabbix&logoColor=white">
-<img src="https://img.shields.io/badge/DCGM_Exporter-76B900?style=flat-square&logo=nvidia&logoColor=white">
-
-**中间件与存储**
-
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
-<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white">
-<img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white">
-<img src="https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white">
-<img src="https://img.shields.io/badge/NFS-3E6E93?style=flat-square&logo=linux&logoColor=white">
-<img src="https://img.shields.io/badge/Nacos-4C9AFF?style=flat-square&logoColor=white">
-<img src="https://img.shields.io/badge/Sentinel-5B8FF9?style=flat-square&logoColor=white">
-
-**云**
-
-<img src="https://img.shields.io/badge/阿里云_ACP-FF6A00?style=flat-square&logo=alibabacloud&logoColor=white">
-<img src="https://img.shields.io/badge/ECS-FF6A00?style=flat-square&logo=alibabacloud&logoColor=white">
-<img src="https://img.shields.io/badge/ACK-FF6A00?style=flat-square&logo=alibabacloud&logoColor=white">
-<img src="https://img.shields.io/badge/SLB-FF6A00?style=flat-square&logo=alibabacloud&logoColor=white">
-<img src="https://img.shields.io/badge/VPC-FF6A00?style=flat-square&logo=alibabacloud&logoColor=white">
+<p><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"> <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"> <img src="https://img.shields.io/badge/阿里云_ACP-FF6A00?style=flat-square&logo=alibabacloud&logoColor=white"></p>
 
 ## 最近在做的
 
