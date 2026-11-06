@@ -46,6 +46,22 @@ flowchart LR
 | **[gpu-monitor](https://github.com/Diaorongsong2/gpu-monitor)**<br/><sub>DCGM · Prometheus · Grafana</sub> | GPU 监控。显卡在 Windows 宿主、Prometheus 在 K8s 集群，跨机器抓取 | 指标口径说明 |
 | **[Aliyun-tea-ecommerce-SOP](https://github.com/Diaorongsong2/Aliyun-tea-ecommerce-SOP)**<br/><sub>ECS · ACK · SLB</sub> | 阿里云茶叶电商系统，ECS 自建中间件到 ACK 容器化的迁移 | 部署顺序图 |
 
+## 踩过的坑
+
+下面几条都是当时卡了不短时间的，怎么试错、最后怎么绕过去的，仓库里的 SOP 都记着。
+
+**ACK 拉不动自建 Harbor 的镜像**
+
+Harbor 用的是自签证书，节点上的信任也加了，照样 `ErrImagePull`。没在证书上继续折腾，最后在跳板机 `docker save` 出来，`ctr -n k8s.io images import` 直接导进节点。
+
+**显卡在 Windows 上，Prometheus 在 K8s 里**
+
+跨机器抓 `192.168.44.1:9400`。一开始去改 Operator 生成的 Secret，过几分钟就被 reconcile 改回去了，查了半天才发现改错了地方。后来走 `spec.additionalScrapeConfigs` 指向自己的 Secret，才稳住。
+
+**后台上传大图报 413**
+
+不是改一处就好。nginx 的 `client_max_body_size`、Spring 的 `max-file-size`、还有 SLB 带宽，三处得对得上，漏一个照样传不上去。
+
 ## 技术栈
 
 **系统与容器**
